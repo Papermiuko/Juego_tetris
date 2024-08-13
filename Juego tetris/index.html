@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="left-panel">
+            <h1 id="game-title">
+                <span>T</span><span>e</span><span>t</span><span>r</span><span>i</span><span>s</span>
+            </h1>
+            <h2>Detalles del Juego</h2>
+            <p id="level">Nivel: 1</p>
+            <p id="score">Puntuación: 0</p>
+            <button id="start-button">Empezar</button>
+        </div>
+        <canvas id="tetris" width="400" height="800"></canvas>
+        <div id="right-panel">
+            <h2>Instrucciones</h2>
+            <p>Usa las flechas del teclado ⇦ ⇨ ⇩ para mover las piezas.</p>
+            <p>Presiona ⇧ para rotar las piezas.</p>
+        </div>
+    </div>
+    <div id="message-container">
+        <div id="message"></div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
