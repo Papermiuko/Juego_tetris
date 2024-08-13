@@ -1,1 +1,0 @@
-Este proyecto esta montado con dominio de pythonanywhere con la cuenta de oonetx@gmail.com
